@@ -1,0 +1,44 @@
+.balls {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  top: 60%;
+  animation-name: balls;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#blue {
+  background-color: blue;
+  left: 25%;
+  animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+#red {
+  background: red;
+  left: 50%;
+  animation-timing-function: ease-in;
+}
+
+#yellow {
+  background-color: yellow;
+  left: 75%;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes balls {
+  45% {
+    right: 10%;
+    background: linear-gradient(to left, orange, black);
+  }
+
+  50% {
+    top: 10%;
+  }
+
+  100% {
+    left: 10%;
+    background: linear-gradient(to right, #dae2f8, #d6a4a4);
+  }
+}

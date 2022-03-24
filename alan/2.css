@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pacifico", cursive;
+}
+.container {
+  position: relative;
+}
+.flexbox {
+  position: relative;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox .navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50px;
+  margin-right: 39px;
+}
+.flexbox h2 {
+  position: relative;
+  font-size: 30px;
+}
+
+.navigation li {
+  list-style: none;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+}
+.navigation li a:hover {
+  color: rgb(107, 210, 218);
+}
+.hero {
+  position: relative;
+  width: 85%;
+  height: 500px;
+  background-color: aqua;
+  margin: 10px auto;
+  background-image: url(/2106.w015.n001.463B.p15.463.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  position: relative;
+  font-size: 3em;
+  top: 150px;
+  left: 30px;
+  color: rgb(41, 40, 41);
+}
+
+.hero .btn {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+
+.hero .btn a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  transition: 3s;
+}
+
+.hero .btn:hover {
+  transform: scale(1.1);
+}
+/* Akhir Home */
+
+/* About */
+.about {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  top: 150px;
+  left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about h1 {
+  position: relative;
+  left: 500px;
+  top: -100px;
+}
+
+.about .text1 {
+  position: relative;
+  left: 10px;
+  margin-left: -30px;
+  margin-right: 300px;
+  background-color: #e3dfde;
+}
+
+.text1 h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -40px;
+  color: #fff;
+}
+
+.text1 p {
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+
+.text1 button {
+  position: relative;
+  left: -10px;
+  top: 30px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  transition: 1s;
+}
+
+.text1 button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.about .text2 {
+  position: relative;
+  left: 10px;
+  margin-left: -30px;
+  margin-right: 300px;
+  background-color: #e3dfde;
+}
+
+.text2 h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -40px;
+  color: #fff;
+}
+
+.text2 p {
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+
+.text2 button {
+  position: relative;
+  left: -10px;
+  top: 30px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  transition: 1s;
+}
+
+.text2 button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* Akhir About */
+
+/* Contact */
+
+.contact {
+  position: relative;
+  top: 300px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .judul {
+  position: absolute;
+  top: -90px;
+}
+
+.contact .card1 {
+  position: relative;
+  margin: 20px;
+  background-color: #e3dfde;
+}
+.contact .card2 {
+  position: relative;
+  margin: 20px;
+  background-color: #e3dfde;
+}
+.contact .card3 {
+  position: relative;
+  margin: 20px;
+  background-color: #e3dfde;
+}
+.contact .card4 {
+  position: relative;
+  margin: 20px;
+  background-color: #e3dfde;
+}
+
+.contact .card1 h1 {
+  position: relative;
+  left: 30px;
+  font-size: 25px;
+}
+.contact .card2 h1 {
+  position: relative;
+  left: 30px;
+  top: 50px;
+  font-size: 25px;
+}
+.contact .card3 h1 {
+  position: relative;
+  left: 65px;
+  font-size: 25px;
+}
+.contact .card4 h1 {
+  position: relative;
+  left: 40px;
+  font-size: 25px;
+}
+
+/* awal */
+.contact .card1 .tittle {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .card1 a {
+  position: relative;
+  left: 35%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.contact .card1 a:hover {
+  opacity: 0.8;
+}
+
+.contact .card1 button {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+  top: 15px;
+}
+
+.contact .card1 button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* Akhir */
+
+/* awal */
+.contact .card2 .tittle {
+  position: relative;
+  top: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .card2 a {
+  position: relative;
+  top: 50px;
+  left: 35%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.contact .card2 a:hover {
+  opacity: 0.8;
+}
+
+.contact .card2 button {
+  position: relative;
+  width: 100%;
+  top: 133px;
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+}
+
+.contact .card2 button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* Akhir */
+
+/* awal */
+.contact .card3 .tittle {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .card3 a {
+  position: relative;
+  left: 35%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.contact .card3 a:hover {
+  opacity: 0.8;
+}
+
+.contact .card3 button {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+  top: 3px;
+}
+
+.contact .card3 button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* Akhir */
+
+/* awal */
+.contact .card4 .tittle {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .card4 a {
+  position: relative;
+  left: 35%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.contact .card4 a:hover {
+  opacity: 0.8;
+}
+
+.contact .card4 button {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+}
+
+.contact .card4 button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* Akhir */
+
+/* Awal Address */
+
+.addres {
+  position: relative;
+  top: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.addres h1 {
+  position: absolute;
+  top: -50px;
+}
+
+.addres iframe {
+  position: relative;
+  top: 30px;
+}
+/* Akhir */
+
+/* footer */
+
+footer {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  top: 600px;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+footer a:hover {
+  color: antiquewhite;
+}

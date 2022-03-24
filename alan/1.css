@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "open-sans", sans-serif;
+}
+
+body {
+  background-image: url(undraw_Thought_process_re_om58.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  width: 300px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container h1 {
+  text-align: center;
+  color: black;
+  font-family: "Righteous", cursive;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+
+.container form {
+  position: relative;
+  top: 10px;
+  bottom: 30px;
+  left: 30px;
+  padding: 10px;
+}
+
+.container form label {
+  position: relative;
+  font-family: "Righteous", cursive;
+  padding-left: 55px;
+}
+
+.container form input {
+  padding: 5px;
+  border-radius: 10px;
+  background: rgba(31, 38, 135, 0.18);
+  font-family: "Righteous", cursive;
+  margin-left: -10px;
+}
+
+.container form button {
+  width: 100px;
+  height: 25px;
+  position: relative;
+  top: 15px;
+  left: 49px;
+  margin-top: 10px;
+  background: #1f26872e;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Righteous", cursive;
+  transition: width 1s;
+}
+.container form button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container a {
+  position: absolute;
+  left: 90px;
+  bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  cursor: pointer;
+  color: rgb(167, 152, 167);
+}
+
+.container-balls {
+  position: absolute;
+  top: 85%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#balls1 {
+  left: 10%;
+  animation-name: balls1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes balls1 {
+  50% {
+    right: 10%;
+    top: 70%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 20%;
+    opacity: 1;
+  }
+}
+
+#balls2 {
+  left: 20%;
+  animation-name: balls2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+@keyframes balls2 {
+  50% {
+    right: 10%;
+    top: 50%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    animation-delay: 1s;
+  }
+  100% {
+    left: 30%;
+    opacity: 1;
+  }
+}
+
+#balls3 {
+  left: 30%;
+  animation-name: balls3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+@keyframes balls3 {
+  50% {
+    top: 80%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 40%;
+    opacity: 1;
+  }
+}
+#balls4 {
+  left: 40%;
+  animation-name: balls4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+
+@keyframes balls4 {
+  50% {
+    top: 80%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 50%;
+    opacity: 1;
+  }
+}
+
+#balls5 {
+  left: 50%;
+  animation-name: balls5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+}
+@keyframes balls5 {
+  50% {
+    top: 80%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 60%;
+    opacity: 1;
+  }
+}
+#balls6 {
+  left: 60%;
+  animation-name: balls6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+@keyframes balls6 {
+  50% {
+    top: 50%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 70%;
+    opacity: 1;
+  }
+}
+#balls7 {
+  left: 70%;
+  animation-name: balls7;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
+}
+
+@keyframes balls7 {
+  50% {
+    top: 70%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 80%;
+    opacity: 1;
+  }
+}
+#balls8 {
+  left: 80%;
+  animation-name: balls8;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+}
+
+@keyframes balls8 {
+  50% {
+    top: 50%;
+    background: rgba(14, 14, 14, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  100% {
+    left: 90%;
+    opacity: 1;
+  }
+}
